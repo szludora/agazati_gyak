@@ -1,0 +1,20 @@
+nav li {
+  list-style-type: none;
+  border: solid white 2px;
+  border-radius: 5px;
+  padding: 10px;
+}
+nav li:hover {
+  background-color: rgb(132, 132, 130);
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}

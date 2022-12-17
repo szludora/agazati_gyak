@@ -1,0 +1,45 @@
+
+@import url(/stilus/header.css);
+@import url(/stilus/footer.css);
+@import url(/stilus/main.css);
+@import url(/stilus/nav.css);
+@import url(/stilus/article.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10pt;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1.3fr 3fr 1fr;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #333333;
+  }
+  
+  body {
+    background-image: url(/design/teglafal.jpg);   
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        grid-template-columns: none;
+    }
+
+    nav {
+        grid-row-start: 1;
+    }
+
+    .bal img {
+        float:unset;
+        width: 100%;
+    }
+    
+}
